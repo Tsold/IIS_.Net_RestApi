@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/RestService.Models">
+  <xs:element name="ListOfPeople">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="People">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Person">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="IDPerson" type="xs:unsignedByte" />
+                    <xs:element name="Name" type="xs:string" />
+                    <xs:element name="Surname" type="xs:string" />
+                    <xs:element name="Gender" type="xs:string" />
+                    <xs:element name="PictureUrl" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

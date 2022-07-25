@@ -1,0 +1,11 @@
+<ListOfPeople xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/RestService.Models">
+  <People>
+    <Person>
+      <IDPerson>1</IDPerson>
+      <Name>da</Name>
+      <Surname>da</Surname>
+      <Gender>da</Gender>
+      <PictureUrl>//sw13da</PictureUrl>
+    </Person>
+  </People>
+</ListOfPeople>
